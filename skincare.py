@@ -30,14 +30,28 @@ class Skincare_Product:
     self.target = target
     self.owned = owned
     
-  def skincare_products(self): ## stores the full list of skincare products
+  def skincare_products(self):
     """Returns the user's skincare product information"""
     return {"name": self.name, "skin_type": self.skin_type, "target": self.target, "owned": self.owned}
-
-def skincare_recs(): ## skincare recommendations based on user's skin from products they have
-
-def skincare_sug(): ## suggests additional products that the user does not already own 
-
+class Skincare_Advice:
+  """A class that recommends skincare products based on their current inventory and skin type. 
+  As well as new products that the user does not own"""
+def skincare_recs(): 
+  """Skincare recommendations based on user's skin from products they have"""
+  self.skin_type = skin_type
+  self.owned = owned 
+  self.recs = {skin_type:owned}
+def skincare_sug(): 
+  """Suggests additional products that the user does not already own"""
+  self.newProducts = []
+  self.skin_type = skin_type 
+  self.new_routine = new_routine 
+  
 ## Unit Tests 
 
-assert == 
+assert self.owned == self.recs
+assert self.owned != self.newProducts 
+assert self.skin_type == combo_skin
+assert self.skin_type == oily_skin
+assert self.skin_type == norm_skin
+assert self.skin_type == dry_skin
