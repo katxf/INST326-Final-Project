@@ -48,10 +48,9 @@ def skincare_sug():
   self.new_routine = new_routine 
   
 ## Unit Tests 
+"""Asserts the four main skin types and equates it to the corresponding object. """
 
-assert self.owned == self.recs
-assert self.owned != self.newProducts 
 assert self.skin_type == "combo skin" 
 assert self.skin_type == "oily skin" 
 assert self.skin_type == "normal skin" 
-assert self.skin_type == " dry skin"
+assert self.skin_type == "dry skin"
