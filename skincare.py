@@ -51,7 +51,7 @@ def skincare_sug():
 
 assert self.owned == self.recs
 assert self.owned != self.newProducts 
-assert self.skin_type == combo_skin
-assert self.skin_type == oily_skin
-assert self.skin_type == norm_skin
-assert self.skin_type == dry_skin
+assert self.skin_type == "combo skin" 
+assert self.skin_type == "oily skin" 
+assert self.skin_type == "normal skin" 
+assert self.skin_type == " dry skin"
