@@ -1,7 +1,7 @@
 """
 Group: Katherine Fuentes, Krista Mathew, Jigyasa Dahal, Afreen Ahmed
 Assignment: Final Project Check in - Skincare
-Date: 11/12/24
+Date: 11/26/24
 """
 
 ##Layout of the code/Docustrings
@@ -47,10 +47,3 @@ def skincare_sug():
   self.skin_type = skin_type 
   self.new_routine = new_routine 
   
-## Unit Tests 
-"""Asserts the four main skin types and equates it to the corresponding object. """
-
-assert self.skin_type == "combo skin" 
-assert self.skin_type == "oily skin" 
-assert self.skin_type == "normal skin" 
-assert self.skin_type == "dry skin"
