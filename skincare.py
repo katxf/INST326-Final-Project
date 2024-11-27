@@ -54,9 +54,8 @@ class Skincare_Advice:
   
 ## Unit Tests and Example Usage
 if __name__ == "__main__":
-  """Invokes all the methods of class User, class Skincare_product, and Skincare_Advice.
+    """Invokes all the methods of class User, class Skincare_product, and Skincare_Advice.
     It sets an example user profile that states their skin type and what skin concern they are targetting """
-    
     user = User("oily skin", ["hydration", "acne control"])
     user.log("2024-11-20", "oily skin")
     user.log("2024-11-21", "combo skin")
