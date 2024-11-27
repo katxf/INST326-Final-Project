@@ -64,7 +64,7 @@ assert self.skin_type == "normal skin"
 assert self.skin_type == "dry skin"
 assert advice.skincare_recs() == ["Oil-Free Moisturizer", "SPF 50 Sunscreen"]
 assert advice.skincare_sug(possible_products) == ["Toner"]
-assert user.skin_profile()["user_log"]["2024-11-20"]["condition"] == "oily skin"
+assert user.skin_profile()["user_log"]["2024-11-20"]["record"] == "oily skin"
 
 if __name__ == "__main__":
   user = User("oily skin", ["hydration", "acne control"])
