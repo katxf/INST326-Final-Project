@@ -53,15 +53,20 @@ class Skincare_Advice:
   
 ## Unit Tests and Example Usage
 if __name__ == "__main__":
+  """Invokes all the methods of class User, class Skincare_product, and Skincare_Advice.
+    It sets an example user profile that states their skin type and what skin concern they are targetting """
+    
     user = User("oily skin", ["hydration", "acne control"])
     user.log("2024-11-20", "oily skin")
     user.log("2024-11-21", "combo skin")
-  
+
+    """Defines each product on what skin type it is meant for and the purpose """  
     moisturizer = Skincare_Product("Oil-Free Moisturizer", "oily skin", "hydration")
     cleanser = Skincare_Product("Foaming Facial Cleanser", "oily skin", "hydration")
     sunscreen = Skincare_Product("SPF 50 Sunscreen", "combo skin", "UV protection")
     user_products = [moisturizer, cleanser, sunscreen]
-
+  
+    """States the product, what skin type it is meant for, its purpose, and whether user owns the product """
     possible_products = [
     Skincare_Product("Hydrating Serum", "dry skin", "hydration", owned = False),
     Skincare_Product("Toner", "oily skin", "acne control", owned = False),
