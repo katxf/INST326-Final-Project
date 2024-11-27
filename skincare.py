@@ -1,7 +1,8 @@
 """
-Group: Katherine Fuentes, Krista Mathew, Jigyasa Dahal, Afreen Ahmed
-Assignment: Final Project Check-In 2 - Skincare
-Date: 11/26/24
+GROUP HISSSS: Krista Mathew, Jigyasa Dahal, Katherine Fuentes, Afreen Ahmed
+INST 326 - 0303
+26 Nov 2024
+Final Project Check-In 2 
 """
 
 ##Layout of the code/Docstrings
