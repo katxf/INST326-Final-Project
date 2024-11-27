@@ -1,6 +1,6 @@
 """
 Group: Katherine Fuentes, Krista Mathew, Jigyasa Dahal, Afreen Ahmed
-Assignment: Final Project Check in - Skincare
+Assignment: Final Project Check in 2 - Skincare
 Date: 11/26/24
 """
 
