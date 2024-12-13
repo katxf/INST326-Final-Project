@@ -12,7 +12,7 @@ class User:
     """Sets user's inputted skin type and goals for a certain day"""
     self.skin_type = skin_type
     self.goals = goals
-    self.user_log = {}
+    self.user_log = {} ##dictionary to store daily skin details
 
   def log(self, date, record):
     """Log for the user's daily skin details"""
